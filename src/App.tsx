@@ -148,13 +148,13 @@ function App() {
       {/* Background Geometric Shapes */}
       <div className="absolute inset-0 pointer-events-none">
         {/* Large black blob - top left */}
-        <div className="absolute -top-32 -left-32 w-96 h-96 bg-black rounded-full opacity-80"></div>
+        <div className="absolute -top-60 -left-32 w-96 h-96 bg-black rounded-full opacity-80"></div>
 
         {/* Medium black blob - bottom right */}
         <div className="absolute -bottom-24 -right-24 w-72 h-72 bg-black rounded-full opacity-60"></div>
 
         {/* Small accent blob - top right */}
-        <div className="absolute top-20 right-20 w-32 h-32 bg-[#FFB800] rounded-full opacity-40"></div>
+        <div className="absolute -top-4 -right-28 w-64 h-64 bg-[#FFB800] rounded-full opacity-40"></div>
 
         {/* Geometric lines */}
         <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
@@ -167,7 +167,7 @@ function App() {
           <div className="flex justify-center mb-8">
             <div className="relative">
               <img
-                src="/dappcon-25-logo.png"
+                src="public/dappcon-25-logo.png"
                 alt="DappCon25 Logo"
                 className="w-20 h-20 object-contain"
               />
