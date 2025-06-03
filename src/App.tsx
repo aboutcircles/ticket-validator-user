@@ -167,7 +167,7 @@ function App() {
           <div className="flex justify-center mb-8">
             <div className="relative">
               <img
-                src="public/dappcon-25-logo.png"
+                src="/dappcon-25-logo.png"
                 alt="DappCon25 Logo"
                 className="w-20 h-20 object-contain"
               />
